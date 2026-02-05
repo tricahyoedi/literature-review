@@ -13,4 +13,18 @@
     "findings": "Determined that community trust is the primary bottleneck for new network adoption.",
     "link": "https://doi.org/xxx"
   }
+  {
+    "author": "Chen et al. (2024)",
+    "title": "Energy Grid GIS Analysis",
+    "method": "Quantitative",
+    "findings": "Significant evidence of load-balancing improvements using GIS spatial modeling.",
+    "link": "https://doi.org/xxx"
+  },
+  {
+    "author": "Roberts (2023)",
+    "title": "Socio-Technical Energy Shifts",
+    "method": "Qualitative",
+    "findings": "Determined that community trust is the primary bottleneck for new network adoption.",
+    "link": "https://doi.org/xxx"
+  }
 ]
