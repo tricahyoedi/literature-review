@@ -2,133 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Literature Review - Data Fetch</title>
+    <title>Literature Review | GitHub Showcase</title>
     <style>
-        :root {
-            --bg-dark: #2c2a29;
-            --sidebar-width: 280px;
-            --accent: #3498db;
-        }
-
-        body { font-family: 'Segoe UI', sans-serif; margin: 0; display: flex; background: #f4f7f6; }
-
-        /* Sidebar */
-        nav {
-            width: var(--sidebar-width);
-            height: 100vh;
-            padding: 20px;
-            background: var(--bg-dark);
-            color: white;
-            position: fixed;
-            box-sizing: border-box;
-        }
-
-        input[type="text"] {
-            width: 100%; padding: 10px; margin-top: 10px;
-            background: #444; border: 1px solid #555; color: white; border-radius: 4px;
-        }
-
-        /* Main Table Content */
-        main { margin-left: var(--sidebar-width); padding: 40px; width: 100%; }
+        :root { --bg: #2c2a29; --accent: #3498db; }
+        body { font-family: sans-serif; display: flex; margin: 0; background: #f4f4f4; }
         
-        .table-container {
-            background: white; padding: 20px; border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        /* Sidebar matches your reference image */
+        nav { 
+            width: 280px; height: 100vh; background: var(--bg); 
+            color: white; padding: 20px; position: fixed; box-sizing: border-box;
         }
+        
+        #status { font-size: 0.8rem; margin-top: 10px; color: #888; }
+        .error { color: #ff6b6b !important; }
 
-        table { width: 100%; border-collapse: collapse; color: #333; }
-        th { text-align: left; padding: 15px; background: #f8f9fa; border-bottom: 2px solid var(--accent); }
-        td { padding: 15px; border-bottom: 1px solid #eee; }
-
-        /* Status indicators */
-        #status { padding: 10px; font-weight: bold; color: var(--accent); }
-        .error { color: #e74c3c !important; }
-        .tag { background: #e1effe; color: #3498db; padding: 3px 8px; border-radius: 10px; font-size: 0.8rem; font-weight: bold; }
+        /* Main Table */
+        main { margin-left: 280px; padding: 40px; width: 100%; }
+        .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; }
+        th { text-align: left; padding: 12px; border-bottom: 2px solid var(--accent); background: #fafafa; }
+        td { padding: 12px; border-bottom: 1px solid #eee; color: #333; }
+        .tag { background: #e1effe; color: #007bff; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
 <nav>
-    <h2>Filters</h2>
-    <p>Search Literature</p>
-    <input type="text" id="searchInput" placeholder="Type to filter..." onkeyup="filterData()">
-    <div id="status">Loading data...</div>
+    <h2>Literature Review</h2>
+    <input type="text" id="search" placeholder="Search..." onkeyup="filter()" style="width:100%; padding:8px; border-radius:4px; border:none;">
+    <div id="status">Initiating fetch...</div>
 </nav>
 
 <main>
-    <div class="table-container">
+    <div class="container">
         <table>
             <thead>
                 <tr>
-                    <th>Author (Year)</th>
+                    <th>Author</th>
                     <th>Title</th>
                     <th>Method</th>
                     <th>Findings</th>
-                    <th>Action</th>
                 </tr>
             </thead>
-            <tbody id="tableBody">
+            <tbody id="target">
                 </tbody>
         </table>
     </div>
 </main>
 
 <script>
-    let literatureData = [];
+    let db = [];
 
-    // THE FETCH FUNCTION
-    async function fetchData() {
-        const statusEl = document.getElementById('status');
-        
+    async function getData() {
+        const status = document.getElementById('status');
         try {
-            // Fetching from your local data.json file
-            const response = await fetch('data.json');
+            // Using a relative path for GitHub Pages
+            const res = await fetch('./data.json'); 
             
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            if (!res.ok) throw new Error(`Status ${res.status}: File Not Found`);
 
-            literatureData = await response.json();
-            
-            statusEl.innerText = `Loaded ${literatureData.length} papers`;
-            renderTable(literatureData);
+            db = await res.json();
+            status.innerHTML = `✅ Successfully loaded ${db.length} papers.`;
+            render(db);
 
-        } catch (error) {
-            console.error("Could not fetch data:", error);
-            statusEl.innerText = "Error loading JSON";
-            statusEl.classList.add('error');
-            
-            document.getElementById('tableBody').innerHTML = `
-                <tr><td colspan="5" style="text-align:center;">
-                    Failed to load data.json. Ensure you are running a local server or viewing on GitHub Pages.
-                </td></tr>`;
+        } catch (err) {
+            status.innerHTML = `❌ Error: ${err.message}`;
+            status.className = 'error';
+            console.error("Detailed Error:", err);
         }
     }
 
-    function renderTable(data) {
-        const tableBody = document.getElementById('tableBody');
-        tableBody.innerHTML = data.map(paper => `
+    function render(data) {
+        document.getElementById('target').innerHTML = data.map(item => `
             <tr>
-                <td><strong>${paper.author}</strong></td>
-                <td>${paper.title}</td>
-                <td><span class="tag">${paper.method}</span></td>
-                <td>${paper.findings}</td>
-                <td><a href="${paper.link}" target="_blank" style="color:#3498db; text-decoration:none; font-weight:bold;">PDF ↗</a></td>
+                <td><strong>${item.author}</strong></td>
+                <td>${item.title}</td>
+                <td><span class="tag">${item.method}</span></td>
+                <td>${item.findings}</td>
             </tr>
         `).join('');
     }
 
-    function filterData() {
-        const query = document.getElementById('searchInput').value.toLowerCase();
-        const filtered = literatureData.filter(item => 
-            item.title.toLowerCase().includes(query) || 
-            item.author.toLowerCase().includes(query)
-        );
-        renderTable(filtered);
+    function filter() {
+        const q = document.getElementById('search').value.toLowerCase();
+        const f = db.filter(i => i.title.toLowerCase().includes(q) || i.author.toLowerCase().includes(q));
+        render(f);
     }
 
-    // Start fetch on page load
-    window.onload = fetchData;
+    window.onload = getData;
 </script>
 
 </body>
