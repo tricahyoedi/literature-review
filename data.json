@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Spatial Analysis of Energy GIS",
+    "author": "Chen et al. (2024)",
+    "domain": "Engineering",
+    "method": "Quantitative",
+    "image": "https://via.placeholder.com/300x150",
+    "findings": "High correlation between spatial density and grid stability.",
+    "link": "#"
+  },
+  {
+    "title": "Theoretical Frameworks in Energy",
+    "author": "Roberts (2023)",
+    "domain": "Physics",
+    "method": "Qualitative",
+    "image": "https://via.placeholder.com/300x150",
+    "findings": "Cultural factors are the primary driver of adoption.",
+    "link": "#"
+  },
+  {
+    "title": "Machine Learning for Power Systems",
+    "author": "Smith (2025)",
+    "domain": "Computer Science",
+    "method": "Mixed Methods",
+    "image": "https://via.placeholder.com/300x150",
+    "findings": "30% increase in efficiency across automated sectors.",
+    "link": "#"
+  }
+]
