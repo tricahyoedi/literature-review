@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literature Review Table - Interactive</title>
+    <style>
+        :root {
+            --bg-dark: #2c2a29;
+            --sidebar-width: 280px;
+            --table-row-hover: #f1f7ff;
+            --accent: #3498db;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg-dark);
+            color: white;
+            margin: 0;
+            display: flex;
+        }
+
+        /* Sidebar - Styled like your reference image */
+        nav {
+            width: var(--sidebar-width);
+            height: 100vh;
+            padding: 20px;
+            background: #222;
+            position: fixed;
+            overflow-y: auto;
+            border-right: 1px solid #444;
+        }
+
+        nav h1 { font-size: 1.3rem; text-transform: uppercase; color: #fff; }
+        
+        .filter-group { margin-bottom: 25px; }
+        .filter-group h4 { font-size: 0.9rem; color: #bbb; border-bottom: 1px solid #444; padding-bottom: 5px; }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            background: #333;
+            border: 1px solid #555;
+            color: white;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .btn-group { display: flex; gap: 5px; flex-wrap: wrap; }
+        .filter-btn {
+            background: #444;
+            color: #ccc;
+            border: none;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            border-radius: 3px;
+        }
+        .filter-btn.active { background: var(--accent); color: white; }
+
+        /* Main Table Area */
+        main {
+            margin-left: var(--sidebar-width);
+            padding: 40px;
+            width: 100%;
+            background-color: #f4f7f6;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .table-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        thead {
+            background-color: #f8f9fa;
+            border-bottom: 2px solid var(--accent);
+        }
+
+        th {
+            text-align: left;
+            padding: 15px;
+            color: #2c3e50;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+
+        tr:hover { background-color: var(--table-row-hover); }
+
+        .tag-pill {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            background: #e1effe;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        .link-btn {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1>Literature Database</h1>
+    <p style="font-size: 0.8rem; color: #888;">Interactive filtering of current research.</p>
+
+    <div class="filter-group">
+        <h4>Live Search</h4>
+        <input type="text" id="searchInput" placeholder="Search title, author, or keyword..." onkeyup="filterData()">
+    </div>
+
+    <div class="filter-group">
+        <h4>Methodology</h4>
+        <div class="btn-group">
+            <button class="filter-btn active" onclick="setFilter('All', this)">All</button>
+            <button class="filter-btn" onclick="setFilter('Quantitative', this)">Quantitative</button>
+            <button class="filter-btn" onclick="setFilter('Qualitative', this)">Qualitative</button>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 20%;">Author (Year)</th>
+                    <th style="width: 25%;">Title</th>
+                    <th>Methodology</th>
+                    <th>Key Findings</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                </tbody>
+        </table>
+    </div>
+</main>
+
+<script>
+    let allData = [];
+    let methodFilter = 'All';
+
+    async function loadData() {
+        // In a real GitHub environment, this loads your data.json
+        try {
+            const response = await fetch('data.json');
+            allData = await response.json();
+            renderTable(allData);
+        } catch (e) {
+            console.error("Fetch failed. Using fallback dummy data for preview.", e);
+            // Fallback for local preview
+            allData = [
+                { "author": "Chen et al. (2024)", "title": "Energy Grid GIS Analysis", "method": "Quantitative", "findings": "High correlation between X and Y.", "link": "#" },
+                { "author": "Roberts (2023)", "title": "Socio-Technical Energy Shifts", "method": "Qualitative", "findings": "Cultural factors outweigh tech stats.", "link": "#" }
+            ];
+            renderTable(allData);
+        }
+    }
+
+    function renderTable(data) {
+        const body = document.getElementById('tableBody');
+        body.innerHTML = data.map(item => `
+            <tr>
+                <td><strong>${item.author}</strong></td>
+                <td>${item.title}</td>
+                <td><span class="tag-pill">${item.method}</span></td>
+                <td>${item.findings}</td>
+                <td><a href="${item.link}" class="link-btn">View Paper</a></td>
+            </tr>
+        `).join('');
+    }
+
+    function setFilter(val, btn) {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        methodFilter = val;
+        filterData();
+    }
+
+    function filterData() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        const filtered = allData.filter(item => {
+            const matchesSearch = item.title.toLowerCase().includes(query) || item.author.toLowerCase().includes(query);
+            const matchesMethod = (methodFilter === 'All' || item.method === methodFilter);
+            return matchesSearch && matchesMethod;
+        });
+        renderTable(filtered);
+    }
+
+    window.onload = loadData;
+</script>
+
+</body>
+</html>
