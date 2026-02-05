@@ -136,7 +136,7 @@
     // Load JSON Data
     async function loadLiterature() {
         try {
-            const response = await fetch('data.json');
+            const response = await fetch('data1.json');
             allData = await response.json();
             renderGrid(allData);
         } catch (e) {
