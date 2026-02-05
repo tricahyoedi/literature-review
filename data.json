@@ -1,0 +1,23 @@
+[
+  {
+    "author": "Dr. Aris (2025)",
+    "title": "Renewable Integration in Urban Grids",
+    "method": "Quantitative",
+    "findings": "Smart meters reduced energy waste by 14% in residential zones.",
+    "link": "https://example.com/paper1"
+  },
+  {
+    "author": "L. Thompson (2024)",
+    "title": "The Psychology of Power Consumption",
+    "method": "Qualitative",
+    "findings": "Social pressure is a more effective motivator than financial incentives.",
+    "link": "https://example.com/paper2"
+  },
+  {
+    "author": "S. Chen et al. (2026)",
+    "title": "AI-Driven Load Balancing",
+    "method": "Quantitative",
+    "findings": "Neural networks predicted peak demand with 98% accuracy.",
+    "link": "https://example.com/paper3"
+  }
+]
