@@ -7,7 +7,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S1",
@@ -17,7 +17,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S1",
@@ -27,7 +27,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S1",
@@ -47,7 +47,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S1",
@@ -57,7 +57,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S1",
@@ -67,7 +67,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S2",
@@ -77,7 +77,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S2",
@@ -87,7 +87,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S2",
@@ -97,7 +97,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S2",
@@ -117,7 +117,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S2",
@@ -127,7 +127,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S3",
@@ -137,7 +137,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S3",
@@ -147,7 +147,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S3",
@@ -157,7 +157,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S3",
@@ -177,7 +177,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S4",
@@ -197,7 +197,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S4",
@@ -207,7 +207,7 @@
         "leecode": 12,
         "high": "Browsing",
         "low": "Revisit",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S4",
@@ -217,7 +217,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -227,7 +227,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -237,7 +237,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -247,7 +247,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -257,7 +257,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -267,7 +267,7 @@
         "leecode": 12,
         "high": "Browsing",
         "low": "Revisit",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -277,7 +277,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S5",
@@ -287,7 +287,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S6",
@@ -297,7 +297,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S6",
@@ -317,7 +317,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S6",
@@ -327,7 +327,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S6",
@@ -337,7 +337,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S6",
@@ -347,7 +347,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S6",
@@ -357,7 +357,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S7",
@@ -367,7 +367,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S7",
@@ -377,7 +377,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S7",
@@ -397,7 +397,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S7",
@@ -407,7 +407,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S7",
@@ -417,7 +417,7 @@
         "leecode": 12,
         "high": "Browsing",
         "low": "Revisit",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S7",
@@ -427,7 +427,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S8",
@@ -437,7 +437,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S8",
@@ -447,7 +447,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S8",
@@ -457,7 +457,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S8",
@@ -467,7 +467,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S8",
@@ -477,7 +477,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S9",
@@ -487,7 +487,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S9",
@@ -507,7 +507,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S10",
@@ -517,7 +517,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S10",
@@ -527,7 +527,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S10",
@@ -537,7 +537,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S10",
@@ -577,7 +577,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S10",
@@ -587,7 +587,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S10",
@@ -597,7 +597,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S11",
@@ -607,7 +607,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S11",
@@ -617,7 +617,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S11",
@@ -647,7 +647,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S11",
@@ -657,7 +657,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S12",
@@ -687,7 +687,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S12",
@@ -697,7 +697,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S12",
@@ -707,7 +707,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S12",
@@ -717,7 +717,7 @@
         "leecode": 12,
         "high": "Browsing",
         "low": "Revisit",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S12",
@@ -727,7 +727,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S12",
@@ -737,7 +737,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S13",
@@ -747,7 +747,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S13",
@@ -757,7 +757,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S13",
@@ -767,7 +767,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S13",
@@ -787,7 +787,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S13",
@@ -797,7 +797,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S13",
@@ -807,7 +807,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S14",
@@ -817,7 +817,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S14",
@@ -837,7 +837,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S14",
@@ -857,7 +857,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S14",
@@ -867,7 +867,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S15",
@@ -887,7 +887,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S15",
@@ -897,7 +897,7 @@
         "leecode": 12,
         "high": "Browsing",
         "low": "Revisit",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S16",
@@ -917,7 +917,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S16",
@@ -927,7 +927,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S17",
@@ -937,7 +937,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S17",
@@ -947,7 +947,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S17",
@@ -957,7 +957,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S18",
@@ -967,7 +967,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S18",
@@ -977,7 +977,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S18",
@@ -997,7 +997,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S18",
@@ -1007,7 +1007,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S18",
@@ -1017,7 +1017,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S18",
@@ -1027,7 +1027,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S19",
@@ -1037,7 +1037,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S19",
@@ -1047,7 +1047,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S19",
@@ -1057,7 +1057,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1067,7 +1067,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1077,7 +1077,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1087,7 +1087,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1107,7 +1107,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1117,7 +1117,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1127,7 +1127,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S20",
@@ -1137,7 +1137,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S21",
@@ -1147,7 +1147,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S21",
@@ -1157,7 +1157,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S21",
@@ -1167,7 +1167,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S21",
@@ -1177,7 +1177,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S21",
@@ -1187,7 +1187,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S22",
@@ -1217,7 +1217,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S22",
@@ -1227,7 +1227,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S22",
@@ -1237,7 +1237,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S23",
@@ -1247,7 +1247,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S23",
@@ -1257,7 +1257,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1267,7 +1267,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1277,7 +1277,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1287,7 +1287,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1297,7 +1297,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1307,7 +1307,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1317,7 +1317,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S24",
@@ -1327,7 +1327,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S25",
@@ -1337,7 +1337,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S25",
@@ -1347,7 +1347,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S25",
@@ -1357,7 +1357,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S25",
@@ -1367,7 +1367,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S26",
@@ -1377,7 +1377,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S26",
@@ -1387,7 +1387,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S26",
@@ -1397,7 +1397,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S27",
@@ -1407,7 +1407,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S27",
@@ -1417,7 +1417,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S27",
@@ -1427,7 +1427,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S27",
@@ -1437,7 +1437,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S27",
@@ -1447,7 +1447,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S27",
@@ -1457,7 +1457,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S28",
@@ -1467,7 +1467,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S28",
@@ -1477,7 +1477,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S28",
@@ -1487,7 +1487,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S28",
@@ -1507,7 +1507,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S28",
@@ -1517,7 +1517,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S29",
@@ -1527,7 +1527,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S29",
@@ -1537,7 +1537,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S29",
@@ -1567,7 +1567,7 @@
         "leecode": 10,
         "high": "Attribute-based",
         "low": "On the links",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S29",
@@ -1577,7 +1577,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S30",
@@ -1587,7 +1587,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S30",
@@ -1597,7 +1597,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S30",
@@ -1617,7 +1617,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S30",
@@ -1627,7 +1627,7 @@
         "leecode": 12,
         "high": "Browsing",
         "low": "Revisit",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S30",
@@ -1637,7 +1637,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S31",
@@ -1647,7 +1647,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S31",
@@ -1657,7 +1657,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S31",
@@ -1677,7 +1677,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S31",
@@ -1687,7 +1687,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S32",
@@ -1697,7 +1697,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S32",
@@ -1707,7 +1707,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S32",
@@ -1717,7 +1717,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S32",
@@ -1727,7 +1727,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S32",
@@ -1737,7 +1737,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S33",
@@ -1747,7 +1747,7 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S34",
@@ -1757,7 +1757,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S34",
@@ -1767,7 +1767,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S34",
@@ -1777,7 +1777,7 @@
         "leecode": 9,
         "high": "Attribute-based",
         "low": "On the node",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S34",
@@ -1787,7 +1787,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S35",
@@ -1797,7 +1797,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S35",
@@ -1807,7 +1807,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S35",
@@ -1817,7 +1817,7 @@
         "leecode": 3,
         "high": "Topology-based",
         "low": "Common connection",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S35",
@@ -1847,7 +1847,7 @@
         "leecode": 1,
         "high": "Topology-based",
         "low": "Adjacency",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S36",
@@ -1857,7 +1857,7 @@
         "leecode": 2,
         "high": "Topology-based",
         "low": "Accessibility",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S36",
@@ -1877,7 +1877,7 @@
         "leecode": 11,
         "high": "Browsing",
         "low": "Follow path",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S36",
@@ -1887,7 +1887,7 @@
         "leecode": 13,
         "high": "Overview",
         "low": "Finding Outliers",
-        "detailed": null
+        "detailed": ""
     },
     {
         "studycode": "S36",
@@ -1897,6 +1897,6 @@
         "leecode": 14,
         "high": "Overview",
         "low": "Finding Patterns",
-        "detailed": null
+        "detailed": ""
     }
 ]
