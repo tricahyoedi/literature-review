@@ -162,19 +162,15 @@
     let methodFilter = 'All';
 
     async function loadData() {
-        // In a real GitHub environment, this loads your data.json
         try {
+            // Fetch the local json file
             const response = await fetch('datatask.json');
             allData = await response.json();
+        
+            // Initial render
             renderTable(allData);
-        } catch (e) {
-            console.error("Fetch failed. Using fallback dummy data for preview.", e);
-            // Fallback for local preview
-            allData = [
-                { "author": "Chen et al. (2024)", "title": "Energy Grid GIS Analysis", "method": "Quantitative", "findings": "High correlation between X and Y.", "link": "#" },
-                { "author": "Roberts (2023)", "title": "Socio-Technical Energy Shifts", "method": "Qualitative", "findings": "Cultural factors outweigh tech stats.", "link": "#" }
-            ];
-            renderTable(allData);
+        } catch (error) {
+            console.error("Error loading JSON:", error);
         }
     }
 
