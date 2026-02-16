@@ -144,11 +144,11 @@
         <table>
             <thead>
                 <tr>
-                    <th style="width: 20%;">Author (Year)</th>
-                    <th style="width: 25%;">Title</th>
-                    <th>Methodology</th>
-                    <th>Key Findings</th>
-                    <th>Links</th>
+                    <th style="width: 20%;">Code</th>
+                    <th style="width: 25%;">User Task</th>
+                    <th>Category</th>
+                    <th>Sub Category</th>
+                    <th>Detailed</th>
                 </tr>
             </thead>
             <tbody id="tableBody">
@@ -164,7 +164,7 @@
     async function loadData() {
         // In a real GitHub environment, this loads your data.json
         try {
-            const response = await fetch('data.json');
+            const response = await fetch('datatask.json');
             allData = await response.json();
             renderTable(allData);
         } catch (e) {
@@ -182,11 +182,12 @@
         const body = document.getElementById('tableBody');
         body.innerHTML = data.map(item => `
             <tr>
-                <td><strong>${item.author}</strong></td>
-                <td>${item.title}</td>
-                <td><span class="tag-pill">${item.method}</span></td>
-                <td>${item.findings}</td>
-                <td><a href="${item.link}" class="link-btn">View Paper</a></td>
+                <td><strong>${item.taskcode}</strong></td>
+                <td>${item.taskname}</td>
+                <td><span class="tag-pill">${item.high}</span></td>
+                <td>${item.low}</td>
+                <td>${item.detailed}</td>
+                /* <td><a href="${item.detailed}" class="link-btn">View Paper</a></td> */
             </tr>
         `).join('');
     }
