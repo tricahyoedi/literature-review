@@ -197,15 +197,23 @@
         filterData();
     }
 
-    function filterData() {
-        const query = document.getElementById('searchInput').value.toLowerCase();
-        const filtered = allData.filter(item => {
-            const matchesSearch = item.title.toLowerCase().includes(query) || item.author.toLowerCase().includes(query);
-            const matchesMethod = (methodFilter === 'All' || item.method === methodFilter);
-            return matchesSearch && matchesMethod;
-        });
-        renderTable(filtered);
-    }
+function filterData() {
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    
+    const filtered = allData.filter(item => {
+        // In your JSON, the search fields should likely be 'taskname' or 'taskcode' 
+        // as 'title' and 'author' do not exist in datatask.json
+        const matchesSearch = (item.taskname && item.taskname.toLowerCase().includes(query)) || 
+                             (item.taskcode && item.taskcode.toLowerCase().includes(query));
+        
+        // In your JSON, the category for 'Topology-based' is stored in the 'high' property
+        const matchesMethod = (methodFilter === 'All' || item.high === methodFilter);
+        
+        return matchesSearch && matchesMethod;
+    });
+    
+    renderTable(filtered);
+}
 
     window.onload = loadData;
 </script>
