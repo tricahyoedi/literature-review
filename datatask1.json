@@ -1,0 +1,1902 @@
+[
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T1",
+        "TaskCode":"T1.1",
+        "TaskName":"Identify common beneficial owner  who owned all the other companies",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T2",
+        "TaskCode":"T2.1",
+        "TaskName":"Reveal potential control, influence, or risk concentration in the network",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T3",
+        "TaskCode":"T3.1",
+        "TaskName":"Find hidden ownership chains",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T4",
+        "TaskCode":"T4.1",
+        "TaskName":"Identify groups that may involve broader structures with a potentially higher-risk",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T5",
+        "TaskCode":"T5.1",
+        "TaskName":"Find taxpayers who are former tax evaders.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T6",
+        "TaskCode":"T6.1",
+        "TaskName":"Check links to view the exact transaction amounts",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S1",
+        "TaskOrder":"T7",
+        "TaskCode":"T7.1",
+        "TaskName":"Trace how their related-party transaction influenced cumulative daily profit.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S2",
+        "TaskOrder":"T8",
+        "TaskCode":"T8.2",
+        "TaskName":"Find patients who has co-visit relationship between two patients",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S2",
+        "TaskOrder":"T9",
+        "TaskCode":"T9.2",
+        "TaskName":"Identify nodes that are directly connected to groups in the co-visit network for further analysis.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S2",
+        "TaskOrder":"T10",
+        "TaskCode":"T10.2",
+        "TaskName":"Identify groups with indirect link in the patient co-visit network.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S2",
+        "TaskOrder":"T11",
+        "TaskCode":"T11.2",
+        "TaskName":"Find suspicious clusters after reducing network density",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S2",
+        "TaskOrder":"T12",
+        "TaskCode":"T12.2",
+        "TaskName":"Filter nodes based on patients under 30 years old to remove those less likely to have chronic diseases",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S2",
+        "TaskOrder":"T13",
+        "TaskCode":"T13.2",
+        "TaskName":"Filter on groups with short visit intervals to narrow the analysis ",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S3",
+        "TaskOrder":"T14",
+        "TaskCode":"T14.3",
+        "TaskName":"Identify which exchanges have strong direct connections with multiple regional and international counterparts",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S3",
+        "TaskOrder":"T15",
+        "TaskCode":"T15.3",
+        "TaskName":"Detect unusual pattern between entities, by examining changes in its reachable connections.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S3",
+        "TaskOrder":"T16",
+        "TaskCode":"T16.3",
+        "TaskName":"Identify entity that behave similarly with many others through multiple shared links to reveal coordinated behavior.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S3",
+        "TaskOrder":"T17",
+        "TaskCode":"T17.3",
+        "TaskName":"Identify groups of exchange that cluster together where activity was concentrated to help analysts focus on the most impactful parts of the network.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S4",
+        "TaskOrder":"T18",
+        "TaskCode":"T18.4",
+        "TaskName":"Filter all the nodes that are accesible from a specific node ",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S4",
+        "TaskOrder":"T19",
+        "TaskCode":"T19.4",
+        "TaskName":"Find connected subgraphs",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S4",
+        "TaskOrder":"T20",
+        "TaskCode":"T20.4",
+        "TaskName":"Find the node becomes a representative parent and associated family",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S4",
+        "TaskOrder":"T21",
+        "TaskCode":"T21.4",
+        "TaskName":"Return to the same node across time to easily find it again and see how it changes from month to month",
+        "LeeCode":12,
+        "High":"Browsing",
+        "Low":"Revisit",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S4",
+        "TaskOrder":"T22",
+        "TaskCode":"T22.4",
+        "TaskName":"Reveal unusual pattern in the overall market structure",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T23",
+        "TaskCode":"T23.5",
+        "TaskName":"Find the strongest and most immediate substitution relationships between NFT projects",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T24",
+        "TaskCode":"T24.5",
+        "TaskName":"Identify project with unique attribute to explain why stakeholders tend to hold it rather than sell it.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T25",
+        "TaskCode":"T25.5",
+        "TaskName":"Identify which pairs of NFT projects have stronger substitution relationships",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T26",
+        "TaskCode":"T26.5",
+        "TaskName":"Trace how people move from one NFT project to another by following the substitution paths.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T27",
+        "TaskCode":"T27.5",
+        "TaskName":"Revisit to a project and see all the substitution flows linked to it.",
+        "LeeCode":12,
+        "High":"Browsing",
+        "Low":"Revisit",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T28",
+        "TaskCode":"T28.5",
+        "TaskName":"Find projects that look unusual because many people are leaving them.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S5",
+        "TaskOrder":"T29",
+        "TaskCode":"T29.5",
+        "TaskName":"Identify a general pattern showing that similar projects often replace each other.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T30",
+        "TaskCode":"T30.6",
+        "TaskName":"Identify which firms in Vorarlberg are directly connected to firms in Vienna",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T31",
+        "TaskCode":"T31.6",
+        "TaskName":"Find whether the two regions are part of the same transaction network or completely disconnected.",
+        "LeeCode":6,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Connected Components"
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T32",
+        "TaskCode":"T32.6",
+        "TaskName":"Filter firms which are getting more money coming in",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T33",
+        "TaskCode":"T33.6",
+        "TaskName":"Find how much money actually flows between the two regions",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T34",
+        "TaskCode":"T34.6",
+        "TaskName":"Follow where the money goes so we can see which firms would be affected next if similar things happen",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T35",
+        "TaskCode":"T35.6",
+        "TaskName":"Check for companies grouped in specific areas",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S6",
+        "TaskOrder":"T36",
+        "TaskCode":"T36.6",
+        "TaskName":"Find certain types of firms which are clustered on the map",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T37",
+        "TaskCode":"T37.7",
+        "TaskName":"Find which cryptocurrencies are directly connected to specific cryptocurrency.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T38",
+        "TaskCode":"T38.7",
+        "TaskName":"Find which cryptocurrencies are correlated with both two selected nodes. ",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T39",
+        "TaskCode":"T39.7",
+        "TaskName":"Check whether the selected node participates in any cluster",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T40",
+        "TaskCode":"T40.7",
+        "TaskName":"Finding a cryptocurrency by its label attribute",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T41",
+        "TaskCode":"T41.7",
+        "TaskName":"Filters links based on correlation strength slider to determine how strong a relationship",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T42",
+        "TaskCode":"T42.7",
+        "TaskName":"Revisit the previous node and inspect its connections again using Market Cap attribute to confirm whether the same cryptocurrencies remain strongly correlated",
+        "LeeCode":12,
+        "High":"Browsing",
+        "Low":"Revisit",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S7",
+        "TaskOrder":"T43",
+        "TaskCode":"T43.7",
+        "TaskName":"Overview region around the selected node to find other nearby nodes with similar characteristics",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S8",
+        "TaskOrder":"T44",
+        "TaskCode":"T44.8",
+        "TaskName":"Filter data by excluding a specific region (a categorical attribute) and then identify nodes based on income (a numerical attribute)",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S8",
+        "TaskOrder":"T45",
+        "TaskCode":"T45.8",
+        "TaskName":"Find specific entities based on outcome flow (a numerical financial attribute)",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S8",
+        "TaskOrder":"T46",
+        "TaskCode":"T46.8",
+        "TaskName":"Choose a region and search for growing sectors and shrinking sectors. ",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S8",
+        "TaskOrder":"T47",
+        "TaskCode":"T47.8",
+        "TaskName":"Choose two regions and explore their strongest connections.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S8",
+        "TaskOrder":"T48",
+        "TaskCode":"T48.8",
+        "TaskName":"Follow the chain of monetary transactions across regions and sectors",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S9",
+        "TaskOrder":"T49",
+        "TaskCode":"T49.9",
+        "TaskName":"Identify direct monetary flow by seeing where money is coming from and where it is going between different sectors and regions",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S9",
+        "TaskOrder":"T50",
+        "TaskCode":"T50.9",
+        "TaskName":"Identify groups of regions or sectors that behave similarly",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S9",
+        "TaskOrder":"T51",
+        "TaskCode":"T51.9",
+        "TaskName":"Give overview where companies are located, how money is spread across areas, and what patterns or trends happen",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T52",
+        "TaskCode":"T52.10",
+        "TaskName":"Find node that can significantly affect other nodes when defaults occur ",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T53",
+        "TaskCode":"T53.10",
+        "TaskName":"Find all nodes that can be reached from a defaulting company through guarantee chains",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T54",
+        "TaskCode":"T54.10",
+        "TaskName":"Find the high-risk nodes that link different groups together, which allow risk to jump from one group to another",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T55",
+        "TaskCode":"T55.10",
+        "TaskName":"Find the most direct paths through which financial trouble can spread.",
+        "LeeCode":4,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Shortest Path"
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T56",
+        "TaskCode":"T56.10",
+        "TaskName":"Detect clusters of enterprises that are connected by guarantee relationships than the rest of the network",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T57",
+        "TaskCode":"T57.10",
+        "TaskName":"Find key enterprises that could disconnect the network when it is removed",
+        "LeeCode":8,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Articulation Points"
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T58",
+        "TaskCode":"T58.10",
+        "TaskName":"Find nodes that has specific default risk and financial metrics.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T59",
+        "TaskCode":"T59.10",
+        "TaskName":"Find outier with high default outcomes compared to the norm",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S10",
+        "TaskOrder":"T60",
+        "TaskCode":"T60.10",
+        "TaskName":"Find specific guarantee structures that frequently occur, especially the repeated feed-forward motifs that signal high-risk or fraudulent behavior",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S11",
+        "TaskOrder":"T61",
+        "TaskCode":"T61.11",
+        "TaskName":"Find all entities directly linked to a person via transactions, accounts, banks, and suspicious reports.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S11",
+        "TaskOrder":"T62",
+        "TaskCode":"T62.11",
+        "TaskName":"Find all nodes reachable from a person through chains of financial transactions.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S11",
+        "TaskOrder":"T63",
+        "TaskCode":"T63.11",
+        "TaskName":"Find clusters that reveal structuring schemes hidden in the financial network.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S11",
+        "TaskOrder":"T64",
+        "TaskCode":"T64.11",
+        "TaskName":"Find different fraud schemes from the network by analyzing independent subgraphs",
+        "LeeCode":6,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Connected Components"
+    },
+    {
+        "StudyCode":"S11",
+        "TaskOrder":"T65",
+        "TaskCode":"T65.11",
+        "TaskName":"Filters nodes by hiding less critical node types such as document and address nodes",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S11",
+        "TaskOrder":"T66",
+        "TaskCode":"T66.11",
+        "TaskName":"Trace how financial relationships extend from specific node by understanding possible money flows and interaction chains in the network.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T67",
+        "TaskCode":"T67.12",
+        "TaskName":"Identify separate groups of accounts where no money is transferred between the groups",
+        "LeeCode":6,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Connected Components"
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T68",
+        "TaskCode":"T68.12",
+        "TaskName":"Find accounts or transaction groups behave as isolated communities.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T69",
+        "TaskCode":"T69.12",
+        "TaskName":"Find money flows across the network, including indirect connections that may reveal hidden relationships or suspicious routing",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T70",
+        "TaskCode":"T70.12",
+        "TaskName":"Look for transactions that don\u2019t match the others and may need to be checked",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T71",
+        "TaskCode":"T71.12",
+        "TaskName":"Look at the attributes on each transaction link to find transaction that may not belong in the group or could signal something suspicious.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T72",
+        "TaskCode":"T72.12",
+        "TaskName":"Find repeated transaction to see how it evolves, which is crucial for catching inconsistencies or suspicious activity.",
+        "LeeCode":12,
+        "High":"Browsing",
+        "Low":"Revisit",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T73",
+        "TaskCode":"T73.12",
+        "TaskName":"Trace the full path of money to reveal hidden behaviors, intermediaries, and potential fraud that a direct-view analysis would miss.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S12",
+        "TaskOrder":"T74",
+        "TaskCode":"T74.12",
+        "TaskName":"Find repeating transaction patterns to quickly flag potentially suspicious behavior",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T75",
+        "TaskCode":"T75.13",
+        "TaskName":"Rank and filter NFTs by their rarity and price attributes to find promising candidates.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T76",
+        "TaskCode":"T76.13",
+        "TaskName":"Inspect the NFT\u2019s adjacent trader to see if the current holder has any sales activity.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T77",
+        "TaskCode":"T77.13",
+        "TaskName":"Trace the transaction history of an NFT\u2019s holder to determine their selling behavior.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T78",
+        "TaskCode":"T78.13",
+        "TaskName":"Spot a group of suspicious traders clustered around the NFT in the network",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T79",
+        "TaskCode":"T79.13",
+        "TaskName":"Trace how NFTs move from one trader to another through the transaction path",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T80",
+        "TaskCode":"T80.13",
+        "TaskName":"Find items that look different from the rest and may be risky",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S13",
+        "TaskOrder":"T81",
+        "TaskCode":"T81.13",
+        "TaskName":"Identify common activity patterns by viewing the overall behavior in the data.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S14",
+        "TaskOrder":"T82",
+        "TaskCode":"T82.14",
+        "TaskName":"Detect fraud by spotting unusual patterns and matching them to similar known patterns in a database.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S14",
+        "TaskOrder":"T83",
+        "TaskCode":"T83.14",
+        "TaskName":"Explore similarity patterns to detect clusters of related trading accounts ",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S14",
+        "TaskOrder":"T84",
+        "TaskCode":"T84.14",
+        "TaskName":"Review each stock\u2019s market size and current price",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S14",
+        "TaskOrder":"T85",
+        "TaskCode":"T85.14",
+        "TaskName":"Locate connected trader groups whose linked behaviors suggest coordinated fraud.",
+        "LeeCode":6,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Connected Components"
+    },
+    {
+        "StudyCode":"S14",
+        "TaskOrder":"T86",
+        "TaskCode":"T86.14",
+        "TaskName":"Identify links by the exchanged amount (shown by width) and the flow direction (shown by arrows).",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S14",
+        "TaskOrder":"T87",
+        "TaskCode":"T87.14",
+        "TaskName":"Trace a trader\u2019s activity over time to spot unusual behavioral paths",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S15",
+        "TaskOrder":"T88",
+        "TaskCode":"T88.15",
+        "TaskName":"Identify outbreak nodes whose removal splits the network into smaller, independent components and preventing contagion spread.",
+        "LeeCode":8,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Articulation Points"
+    },
+    {
+        "StudyCode":"S15",
+        "TaskOrder":"T89",
+        "TaskCode":"T89.15",
+        "TaskName":"Identify networks with larger visual indicators, as these indicate higher debt exposure and require priority",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S15",
+        "TaskOrder":"T90",
+        "TaskCode":"T90.15",
+        "TaskName":"Select and revisit networks with high chain-level contagion risk for deeper analysis.",
+        "LeeCode":12,
+        "High":"Browsing",
+        "Low":"Revisit",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S16",
+        "TaskOrder":"T91",
+        "TaskCode":"T91.16",
+        "TaskName":"Identify visually grouped clusters of similar projects or investors based on their proximity in the layout.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S16",
+        "TaskOrder":"T92",
+        "TaskCode":"T92.16",
+        "TaskName":"Identify each investor\u2019s preferred project category by reading the inner circle of the glyph.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S16",
+        "TaskOrder":"T93",
+        "TaskCode":"T93.16",
+        "TaskName":"View which investors are directly connected to the selected projects through linking lines.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S17",
+        "TaskOrder":"T94",
+        "TaskCode":"T94.17",
+        "TaskName":"Isolating relationships where the financial transaction volume exceeds critical risk thresholds.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S17",
+        "TaskOrder":"T95",
+        "TaskCode":"T95.17",
+        "TaskName":"Isolating specific taxpayers whose multi-period activities signal a high probability of fraudulent behavior.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S17",
+        "TaskOrder":"T96",
+        "TaskCode":"T96.17",
+        "TaskName":"Identifying recurring complex structural and temporal configurations that define known tax evasion strategies.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T97",
+        "TaskCode":"T97.18",
+        "TaskName":"Tracing the sequence of bank failures to see how a shock propagates step-by-step through the system.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T98",
+        "TaskCode":"T98.18",
+        "TaskName":"Identifying a specific \"bottleneck\" bank that collapses regardless of which different institutions trigger the initial shock.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T99",
+        "TaskCode":"T99.18",
+        "TaskName":"Pinpointing \"multiplicator\" banks whose failure is critical because they trigger the collapse of a large portion of the remaining system.",
+        "LeeCode":8,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Articulation Points"
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T100",
+        "TaskCode":"T100.18",
+        "TaskName":"Filtering out the majority of stable banks to focus an audit only on those with high systemic impact.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T101",
+        "TaskCode":"T101.18",
+        "TaskName":"Investigating the specific \"causal trail\" of defaults to understand the logic of a particular simulation.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T102",
+        "TaskCode":"T102.18",
+        "TaskName":"Identifying small, peripheral banks that unexpectedly cause massive systemic shocks compared to other small banks.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S18",
+        "TaskOrder":"T103",
+        "TaskCode":"T103.18",
+        "TaskName":"Grouping dozens of different simulations to see if they follow common paths or lead to the same structural collapse.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S19",
+        "TaskOrder":"T104",
+        "TaskCode":"T104.19",
+        "TaskName":"To identify and observe the behavior of a specific bank's immediate financial neighbors.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S19",
+        "TaskOrder":"T105",
+        "TaskCode":"T105.19",
+        "TaskName":"To visually identify which specific banks in the neighborhood have already entered a state of distress.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S19",
+        "TaskOrder":"T106",
+        "TaskCode":"T106.19",
+        "TaskName":"To recognize the structural regularity that financial distress tends to co-occur among interconnected neighbors.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T107",
+        "TaskCode":"T107.20",
+        "TaskName":"Identifying the immediate affiliated partners of a specific taxpayer to begin an investigation.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T108",
+        "TaskCode":"T108.20",
+        "TaskName":"Tracing multi-step control chains to determine the ultimate reach of a suspected evader.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T109",
+        "TaskCode":"T109.20",
+        "TaskName":"Confirming if two trading parties are secretly linked by a shared investor.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T110",
+        "TaskCode":"T110.20",
+        "TaskName":"Visually identifying dense groups of interconnected entities (\"interest communities\") colluding to evade taxes.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T111",
+        "TaskCode":"T111.20",
+        "TaskName":"Visually filtering the network to highlight only the suspicious transactions and relationship trails.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T112",
+        "TaskCode":"T112.20",
+        "TaskName":"Traversing a \"relationship trail\" to understand how a specific transaction was influenced by a controller.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T113",
+        "TaskCode":"T113.20",
+        "TaskName":"Isolating a small number of suspicious groups from the vast dataset for detailed manual auditing.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S20",
+        "TaskOrder":"T114",
+        "TaskCode":"T114.20",
+        "TaskName":"Abstracting and matching high-level structural configurations (SBE-BT, SAN-BT) that represent tax evasion strategies.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S21",
+        "TaskOrder":"T115",
+        "TaskCode":"T115.21",
+        "TaskName":"Establishing direct ownership or trade links between two entities.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S21",
+        "TaskOrder":"T116",
+        "TaskCode":"T116.21",
+        "TaskName":"Tracing multi-step control chains to determine the ultimate reach of a person or company.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S21",
+        "TaskOrder":"T117",
+        "TaskCode":"T117.21",
+        "TaskName":"Identifying shared controllers or mutual investors behind two trading parties.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S21",
+        "TaskOrder":"T118",
+        "TaskCode":"T118.21",
+        "TaskName":"Tracing specific \"proof chains\" of interest-affiliated relationships behind a transaction.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S21",
+        "TaskOrder":"T119",
+        "TaskCode":"T119.21",
+        "TaskName":"Identifying recurring structural configurations (triangles, quads, etc.) that characterize evasion behaviors.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S22",
+        "TaskOrder":"T120",
+        "TaskCode":"T120.22",
+        "TaskName":"Identifying specific groups (hot spots) of interconnected subsidiaries that require detailed investigation.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S22",
+        "TaskOrder":"T121",
+        "TaskCode":"T121.22",
+        "TaskName":"Identifying \"gatekeeper\" entities that control the flow of information or funds between different segments of the network.",
+        "LeeCode":7,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Bridges"
+    },
+    {
+        "StudyCode":"S22",
+        "TaskOrder":"T122",
+        "TaskCode":"T122.22",
+        "TaskName":"Generating comprehensive profiles of specific companies, including their affiliations and statistical risk parameters.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S22",
+        "TaskOrder":"T123",
+        "TaskCode":"T123.22",
+        "TaskName":"Isolating the most influential entities (anomalies) in the network to prioritize them for transfer pricing audits.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S22",
+        "TaskOrder":"T124",
+        "TaskCode":"T124.22",
+        "TaskName":"Understanding the structural logic and reasons (e.g., shared directors) behind controlled transactions.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S23",
+        "TaskOrder":"T125",
+        "TaskCode":"T125.23",
+        "TaskName":"To distinguish \"atypical\" or suspicious behaviors (like sudden high-rate transfers) from normal periodic activities.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S23",
+        "TaskOrder":"T126",
+        "TaskCode":"T126.23",
+        "TaskName":"To identify recurring temporal behaviors and structural transaction configurations that represent typical or fraudulent behavior.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T127",
+        "TaskCode":"T127.24",
+        "TaskName":"To identify the direct shareholders or subsidiaries of a selected company.,",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T128",
+        "TaskCode":"T128.24",
+        "TaskName":"To determine \"ultimate\" ownership by tracing multiple direct and indirect shareholding links.,",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T129",
+        "TaskCode":"T129.24",
+        "TaskName":"To find shared controllers or common shareholders between two corporate entities.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T130",
+        "TaskCode":"T130.24",
+        "TaskName":"To visually distinguish companies by financial indicators like capital or employee count.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T131",
+        "TaskCode":"T131.24",
+        "TaskName":"To represent the percentage of share volume held between companies as edge weight.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T132",
+        "TaskCode":"T132.24",
+        "TaskName":"To trace a \"cascade\" of control or investment through a sequence of intermediaries.,",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S24",
+        "TaskOrder":"T133",
+        "TaskCode":"T133.24",
+        "TaskName":"To discover complex control structures like pyramids or horizontal cross-ownerships.,",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S25",
+        "TaskOrder":"T134",
+        "TaskCode":"T134.25",
+        "TaskName":"To identify the immediate economic partners or owners of a specific taxpayer.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S25",
+        "TaskOrder":"T135",
+        "TaskCode":"T135.25",
+        "TaskName":"To identify indirect ownership or control relationships (e.g., distance-2 neighbors).",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S25",
+        "TaskOrder":"T136",
+        "TaskCode":"T136.25",
+        "TaskName":"To filter taxpayers based on specific fiscal risk factors like tax payment omissions or residency.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S25",
+        "TaskOrder":"T137",
+        "TaskCode":"T137.25",
+        "TaskName":"To isolate significant financial transactions that exceed a specific risk threshold.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S26",
+        "TaskOrder":"T138",
+        "TaskCode":"T138.26",
+        "TaskName":"Understanding which specific sub-scores (e.g., amountScore, countryCodeScore) drive the overall suspiciousness of a transaction.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S26",
+        "TaskOrder":"T139",
+        "TaskCode":"T139.26",
+        "TaskName":"Identifying transactions whose score construction (the \"shape\" of the line) deviates from the account\u2019s standard historical pattern.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S26",
+        "TaskOrder":"T140",
+        "TaskCode":"T140.26",
+        "TaskName":"Recognizing recurring combinations of sub-scores that characterize specific types of fraudulent behavior across many transactions.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S27",
+        "TaskOrder":"T141",
+        "TaskCode":"T141.27",
+        "TaskName":"Finding all transactions in a seller's history associated with the same buyer context.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S27",
+        "TaskOrder":"T142",
+        "TaskCode":"T142.27",
+        "TaskName":"Verifying if multiple suspicious transactions share a common buyer-seller relationship.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S27",
+        "TaskOrder":"T143",
+        "TaskCode":"T143.27",
+        "TaskName":"Identifying specific transactions (knots) that have incomplete or missing data (e.g., null delivery address).",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S27",
+        "TaskOrder":"T144",
+        "TaskCode":"T144.27",
+        "TaskName":"Comparing transaction payment amounts visually through the physical height of stems or curves.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S27",
+        "TaskOrder":"T145",
+        "TaskCode":"T145.27",
+        "TaskName":"Spotting anomalous transactions, such as massive commodity volumes for a near-zero payment.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S27",
+        "TaskOrder":"T146",
+        "TaskCode":"T146.27",
+        "TaskName":"Distinguishing between legitimate sales promotions and coordinated fake credit-earning activity.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S28",
+        "TaskOrder":"T147",
+        "TaskCode":"T147.28",
+        "TaskName":"To identify the immediate \"senders\" and \"receivers\" (roots and leaves) within a specific transaction group.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S28",
+        "TaskOrder":"T148",
+        "TaskCode":"T148.28",
+        "TaskName":"To determine the reach of a Bitcoin flow by tracing it from a source to a final sink (leaf).",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S28",
+        "TaskOrder":"T149",
+        "TaskCode":"T149.28",
+        "TaskName":"To confirm if a massive set of transactions converges to a shared, limited set of entities.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S28",
+        "TaskOrder":"T150",
+        "TaskCode":"T150.28",
+        "TaskName":"To isolate and focus on a single independent \"island\" of transactions for detailed analysis.",
+        "LeeCode":6,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Connected Components"
+    },
+    {
+        "StudyCode":"S28",
+        "TaskOrder":"T151",
+        "TaskCode":"T151.28",
+        "TaskName":"To isolate a singular, massive transaction group that behaves unlike standard trade.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S28",
+        "TaskOrder":"T152",
+        "TaskCode":"T152.28",
+        "TaskName":"To identify structural \"signatures\" of illicit activities like mixing services (tumblers).",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S29",
+        "TaskOrder":"T153",
+        "TaskCode":"T153.29",
+        "TaskName":"Identifying the first-order countries whose rice imports were directly dependent on Thailand\u2019s exports.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S29",
+        "TaskOrder":"T154",
+        "TaskCode":"T154.29",
+        "TaskName":"Tracing how a localized export drop (e.g., Thailand) reaches distant trade partners through intermediaries.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S29",
+        "TaskOrder":"T155",
+        "TaskCode":"T155.29",
+        "TaskName":"Pinpointing \"transferring countries\" that act as critical links passing shocks to multiple other regions.",
+        "LeeCode":7,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Bridges"
+    },
+    {
+        "StudyCode":"S29",
+        "TaskOrder":"T156",
+        "TaskCode":"T156.29",
+        "TaskName":"Identifying a single node (like Pakistan) whose trade position is essential for the \"cascade\" of influence.",
+        "LeeCode":8,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Articulation Points"
+    },
+    {
+        "StudyCode":"S29",
+        "TaskOrder":"T157",
+        "TaskCode":"T157.29",
+        "TaskName":"Evaluating the magnitude of import dependency between two connected countries.",
+        "LeeCode":10,
+        "High":"Attribute-based",
+        "Low":"On the links",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S29",
+        "TaskOrder":"T158",
+        "TaskCode":"T158.29",
+        "TaskName":"Identifying specific countries (like Fiji) that behaved differently from the rest of their structural cluster.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S30",
+        "TaskOrder":"T159",
+        "TaskCode":"T159.30",
+        "TaskName":"Identifying the immediate financial contacts of a suspected person or company to expand the investigation.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S30",
+        "TaskOrder":"T160",
+        "TaskCode":"T160.30",
+        "TaskName":"Determining the reach of a suspicious actor within the banking network by viewing connections within a specific distance.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S30",
+        "TaskOrder":"T161",
+        "TaskCode":"T161.30",
+        "TaskName":"Discovering and managing groups of actors who form highly connected \"k-cores,\" suggestive of organized criminal networks.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S30",
+        "TaskOrder":"T162",
+        "TaskCode":"T162.30",
+        "TaskName":"Evaluating the systemic importance of actors by visually comparing centrality indices like betweenness and degree.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S30",
+        "TaskOrder":"T163",
+        "TaskCode":"T163.30",
+        "TaskName":"Navigating back to previous stages of an investigation to re-examine data or explore alternative suspicious branches.",
+        "LeeCode":12,
+        "High":"Browsing",
+        "Low":"Revisit",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S30",
+        "TaskOrder":"T164",
+        "TaskCode":"T164.30",
+        "TaskName":"Isolating specific anomalous entities (e.g., a \"seed\" person with high-value transactions) for manual review.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S31",
+        "TaskOrder":"T165",
+        "TaskCode":"T165.31",
+        "TaskName":"Identifying immediate creditors or debtors linked to a specific bank in the network.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S31",
+        "TaskOrder":"T166",
+        "TaskCode":"T166.31",
+        "TaskName":"Determining the vulnerability of nodes to shocks originating from distant parts of the network.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S31",
+        "TaskOrder":"T167",
+        "TaskCode":"T167.31",
+        "TaskName":"Automatically grouping banks based on their multi-risk similarities into \"islands.\"",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S31",
+        "TaskOrder":"T168",
+        "TaskCode":"T168.31",
+        "TaskName":"Pinpointing specific banks that represent the most significant threat to the entire financial system.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S31",
+        "TaskOrder":"T169",
+        "TaskCode":"T169.31",
+        "TaskName":"Gaining an immediate understanding of the overall risk distribution across the entire banking network.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S32",
+        "TaskOrder":"T170",
+        "TaskCode":"T170.32",
+        "TaskName":"Identifying the immediate business partners or associates of a suspected high-risk taxpayer.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S32",
+        "TaskOrder":"T171",
+        "TaskCode":"T171.32",
+        "TaskName":"Tracing multi-step relationships to determine the reach of a suspicious actor or the origin of diffused risk.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S32",
+        "TaskOrder":"T172",
+        "TaskCode":"T172.32",
+        "TaskName":"Identifying shared owners or investors that link multiple suspicious companies.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S32",
+        "TaskOrder":"T173",
+        "TaskCode":"T173.32",
+        "TaskName":"Step-by-step traversal of ownership chains to uncover the \"ultimate\" controller of several entities.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S32",
+        "TaskOrder":"T174",
+        "TaskCode":"T174.32",
+        "TaskName":"Discovering structural configurations that match known or new tax evasion strategies.",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S33",
+        "TaskOrder":"T175",
+        "TaskCode":"T175.33",
+        "TaskName":"Recognizing structural and temporal \"signatures\" of suspicious behavior (e.g., Keyword 58 appearing only in the 2nd half of the year).",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S34",
+        "TaskOrder":"T176",
+        "TaskCode":"T176.34",
+        "TaskName":"Identifying the specific input and output addresses directly linked to a transaction.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S34",
+        "TaskOrder":"T177",
+        "TaskCode":"T177.34",
+        "TaskName":"Tracing the hierarchical connection from a transaction to its participating addresses across levels.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S34",
+        "TaskOrder":"T178",
+        "TaskCode":"T178.34",
+        "TaskName":"Identifying specific participating addresses characterized as \"important\" due to the volume of currency sent or received.",
+        "LeeCode":9,
+        "High":"Attribute-based",
+        "Low":"On the node",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S34",
+        "TaskOrder":"T179",
+        "TaskCode":"T179.34",
+        "TaskName":"Navigating from a transaction to a specific address to understand the flow of funds through the data hierarchy.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S35",
+        "TaskOrder":"T180",
+        "TaskCode":"T180.35",
+        "TaskName":"Identifying the immediate (first-tier) partners within a global supply chain.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S35",
+        "TaskOrder":"T181",
+        "TaskCode":"T181.35",
+        "TaskName":"Determining the reach of a focal firm through indirect, multi-tier supply relationships.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S35",
+        "TaskOrder":"T182",
+        "TaskCode":"T182.35",
+        "TaskName":"Identifying shared segment memberships and cross-sector knowledge exchanges.",
+        "LeeCode":3,
+        "High":"Topology-based",
+        "Low":"Common connection",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S35",
+        "TaskOrder":"T183",
+        "TaskCode":"T183.35",
+        "TaskName":"Identifying functional or structural groupings (e.g., media vs. hardware) within the network.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S35",
+        "TaskOrder":"T184",
+        "TaskCode":"T184.35",
+        "TaskName":"Pinpointing key partners who act as critical mediators for knowledge flow between tiers.",
+        "LeeCode":8,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Articulation Points"
+    },
+    {
+        "StudyCode":"S36",
+        "TaskOrder":"T185",
+        "TaskCode":"T185.36",
+        "TaskName":"Identifying the specific trading partners of a bank at a precise moment.",
+        "LeeCode":1,
+        "High":"Topology-based",
+        "Low":"Adjacency",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S36",
+        "TaskOrder":"T186",
+        "TaskCode":"T186.36",
+        "TaskName":"Determining the centrality and importance of a bank based on its connectivity to others.",
+        "LeeCode":2,
+        "High":"Topology-based",
+        "Low":"Accessibility",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S36",
+        "TaskOrder":"T187",
+        "TaskCode":"T187.36",
+        "TaskName":"Detecting if the market is fragmenting into subgroups, which could signal systemic instability.",
+        "LeeCode":5,
+        "High":"Topology-based",
+        "Low":"Connectivity",
+        "detailed":"Find Clusters"
+    },
+    {
+        "StudyCode":"S36",
+        "TaskOrder":"T188",
+        "TaskCode":"T188.36",
+        "TaskName":"Investigating the chronological sequence of an individual bank's neighbors and transactions.",
+        "LeeCode":11,
+        "High":"Browsing",
+        "Low":"Follow path",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S36",
+        "TaskOrder":"T189",
+        "TaskCode":"T189.36",
+        "TaskName":"Spotting specific banks engaged in anomalous behaviors such as liquidity hoarding.",
+        "LeeCode":13,
+        "High":"Overview",
+        "Low":"Finding Outliers",
+        "detailed":null
+    },
+    {
+        "StudyCode":"S36",
+        "TaskOrder":"T190",
+        "TaskCode":"T190.36",
+        "TaskName":"Observing how bank connections in the network increase and decrease over several days",
+        "LeeCode":14,
+        "High":"Overview",
+        "Low":"Finding Patterns",
+        "detailed":null
+    }
+]
