@@ -183,7 +183,7 @@
                 <td><strong>${item.taskcode}</strong></td>
                 <td>${item.taskname}</td>
                 <td><span class="tag-pill">${item.high}</span></td>
-                <td>${item.low}${item.detailed}</td>
+                <td>${item.low}</td>
                 <td>${item.detailed}</td>
  
             </tr>
@@ -197,23 +197,23 @@
         filterData();
     }
 
-function filterData() {
-    const query = document.getElementById('searchInput').value.toLowerCase();
+    function filterData() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
     
-    const filtered = allData.filter(item => {
+        const filtered = allData.filter(item => {
         // In your JSON, the search fields should likely be 'taskname' or 'taskcode' 
         // as 'title' and 'author' do not exist in datatask.json
-        const matchesSearch = (item.taskname && item.taskname.toLowerCase().includes(query)) || 
+            const matchesSearch = (item.taskname && item.taskname.toLowerCase().includes(query)) || 
                              (item.taskcode && item.taskcode.toLowerCase().includes(query));
         
         // In your JSON, the category for 'Topology-based' is stored in the 'high' property
-        const matchesMethod = (methodFilter === 'All' || item.high === methodFilter);
+            const matchesMethod = (methodFilter === 'All' || item.high === methodFilter);
         
-        return matchesSearch && matchesMethod;
-    });
+            return matchesSearch && matchesMethod;
+        });
     
-    renderTable(filtered);
-}
+        renderTable(filtered);
+    }
 
     window.onload = loadData;
 </script>
