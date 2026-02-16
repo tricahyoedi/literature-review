@@ -146,10 +146,11 @@
         <table>
             <thead>
                 <tr>
-                   // <th style="width: 20%;">Task Code</th>
-                   // <th style="width: 25%;">User Task</th>
-                    <th style="width: 20%;">Task Code</th>
-                    <th style="width: 25%;">User Task</th>
+                   <!-- <th style="width: 20%;">Task Code</th>
+                    <th style="width: 25%;">User Task</th> -->
+                    <th>Study </th>
+                    <th>Task </th>
+                    <th">User Task</th>
                     <th>Category</th>
                     <th>Sub Category</th>
                     <th>Detailed</th>
@@ -182,6 +183,7 @@
         const body = document.getElementById('tableBody');
         body.innerHTML = data.map(item => `
             <tr>
+                <td><strong>${item.studycode}</strong></td>
                 <td><strong>${item.taskcode}</strong></td>
                 <td>${item.taskname}</td>
                 <td><span class="tag-pill">${item.high}</span></td>
